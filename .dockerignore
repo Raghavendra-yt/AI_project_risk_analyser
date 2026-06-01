@@ -1,0 +1,23 @@
+# Folders to ignore in Docker context
+node_modules/
+client/node_modules/
+server/node_modules/
+client/dist/
+
+# Local databases
+server/data/db.json
+
+# Version control
+.git/
+.gitignore
+
+# Docker config
+Dockerfile
+.dockerignore
+
+# Misc
+README.md
+client/README.md
+task.md
+walkthrough.md
+implementation_plan.md
